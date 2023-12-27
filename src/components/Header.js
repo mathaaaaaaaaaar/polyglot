@@ -1,10 +1,13 @@
-import React from 'react';
+import {
+  Navbar,
+  NavbarBrand,
+} from 'reactstrap';
 
 const Header = () => {
     return (
-        <header>
-            <h1>Polyglot</h1>
-        </header>
+        <Navbar color="light" light expand="md">
+            <NavbarBrand href="/">Polyglot</NavbarBrand>
+        </Navbar>
     );
 };
 
