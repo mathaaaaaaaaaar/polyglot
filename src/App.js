@@ -1,13 +1,13 @@
 import './App.css';
 
 import Header from './components/Header';
-import PhraseCard from './components/PhraseCard';
+import SavedPhrasesCard from './components/SavedPhrasesCard';
 
 function App() {
   return (
     <div>
       <Header />
-      <PhraseCard />
+      <SavedPhrasesCard />
     </div>
     // <div className="App">
     //   <header className="App-header">
