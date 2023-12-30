@@ -12,7 +12,7 @@ const PhraseCard = ({ phrase, translation, audioUrl }) => {
     phrase = "Text in English";
     translation = "Text in Spanish";
     const handlePlayAudio = () => {
-        console.log("Audio Played")
+        console.log("Audio Played from Saved Phrases")
     };
 
     return (
