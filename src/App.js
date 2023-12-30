@@ -1,10 +1,14 @@
 import './App.css';
 
 import Header from './components/Header';
+import PhraseCard from './components/PhraseCard';
 
 function App() {
   return (
-    <Header />
+    <div>
+      <Header />
+      <PhraseCard />
+    </div>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
