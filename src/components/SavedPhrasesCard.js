@@ -2,10 +2,6 @@ import React from 'react';
 
 import PhraseCard from './PhraseCard';
 
-// const savedPhrasesCardStyle = {
-//     border: '1px solid black',
-// };
-
 const gridColStyle = {
     gap: '10px',
     display: 'inline-grid',

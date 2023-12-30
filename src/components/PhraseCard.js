@@ -12,7 +12,6 @@ const PhraseCard = ({ phrase, translation, audioUrl }) => {
     phrase = "Text in English";
     translation = "Text in Spanish";
     const handlePlayAudio = () => {
-        // Logic to play the audio
         console.log("Audio Played")
     };
 
