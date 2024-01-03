@@ -9,15 +9,17 @@ function App() {
   return (
     <div>
       <Header />
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <div style={{ flex: 1 }}>
-          <TranslationCard />
+      <div style={{ marginLeft: '50px', marginRight: '50px' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <div style={{ flex: 0, margin: 'auto' }}>
+            <TranslationCard />
+          </div>
+          <div style={{ flex: 0, margin: 'auto' }}>
+            <SavedPhrasesCard />
+          </div>
         </div>
-        <div style={{ flex: 1 }}>
-          <SavedPhrasesCard />
-        </div>
+        <LogsCard />
       </div>
-      <LogsCard />
     </div>
   );
 }
